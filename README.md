@@ -1,7 +1,7 @@
-# Superstore Sales & Profitability Analysis
+# Executive360 – Retail Intelligence & Strategic Decision Platform
 
 ## Objective
-This project analyzes the sales and profitability of a fictitious retail superstore to identify underperforming sectors and optimize discount strategies. The goal was to transform raw transactional data into actionable strategic insights for executive decision-making.
+A global retail company experienced strong sales growth but inconsistent profitability. This centralized analytics platform was built to identify which markets deserve further investment, how discounts impact margins, and which sub-categories reduce overall profitability. 
 
 ## Tech Stack
 *   **Data Preparation & Analysis:** SQL
