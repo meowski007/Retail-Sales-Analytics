@@ -1,23 +1,16 @@
-# Business Questions
+# Strategic Business Questions
 
-## Executive Overview
-1. What are the company's total sales and profits?
-2. Is profitability increasing over time?
+This project was structured to answer the following core business questions using SQL data extraction:
 
-## Regional Performance
-3. Which regions contribute the highest profit?
-4. Which markets require strategic attention?
+## High-Level Performance
+1. **Executive Summary:** What is the overall health of the business regarding revenue, profit, and order volume?
+2. **Time-Series Analysis:** What is the revenue and profit trend over time?
 
-## Product Performance
-5. Which categories generate the most revenue?
-6. Which sub-categories generate losses?
-7. Which products should be promoted or reviewed?
+## Regional & Product Strategy
+3. **Market Performance:** Which global regions generate the highest overall profit and margin?
+4. **Product Profitability:** Which specific sub-categories generate high revenue but operate at a loss?
 
-## Customer Analysis
-8. Which customer segments drive the highest value?
-9. Which customers generate the most profit?
-
-## Operations
-10. How do discounts affect profitability?
-11. Which shipping mode is the most efficient?
-12. What is the return rate across markets?
+## Operational Efficiency
+5. **Pricing Strategy:** At what exact discount percentage does the business stop making money and start taking a loss?
+6. **Customer Value:** Which customer segments drive the most revenue and profit?
+7. **Logistics:** Which shipping mode is the most frequently used and most profitable?
