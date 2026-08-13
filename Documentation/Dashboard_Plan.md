@@ -1,45 +1,16 @@
-# Dashboard Layout
+# Dashboard Layout (Revised Architecture)
 
-## Section 1
-Executive KPIs
+*Note: The initial multi-section scope was streamlined during the analysis phase to focus strictly on high-impact strategic findings for executive decision-making.*
 
-- Revenue
-- Profit
-- Profit Margin
-- Orders
-- Customers
-- Average Order Value
+## Dashboard 1: Executive Overview
+Focuses on the high-level health of the business and revenue generation.
+- **Executive KPIs:** Total Revenue, Total Profit, Profit Margin, Orders, Customers.
+- **Revenue & Profit Trend:** Time-series tracking of financial performance.
+- **Regional Performance:** Geographic breakdown of profit generation.
 
 ---
 
-## Section 2
-Revenue & Profit Trend
-
----
-
-## Section 3
-Regional Performance
-
----
-
-## Section 4
-Product Portfolio
-
----
-
-## Section 5
-Customer Insights
-
----
-
-## Section 6
-Operations
-
-- Shipping
-- Discounts
-- Returns
-
----
-
-## Section 7
-Executive Recommendations
+## Dashboard 2: Strategic Insights
+Focuses on uncovering hidden losses and optimizing business strategy.
+- **Discount Impact Analysis:** Visual scatter plot demonstrating the 20% discount profitability cliff.
+- **Region × Category Heatmap:** Granular matrix identifying underperforming product categories across specific global markets.
