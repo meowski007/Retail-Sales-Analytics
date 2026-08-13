@@ -1,58 +1,20 @@
 # Executive360 – SQL Findings
 
----
+This document summarizes the strategic insights extracted from the database using the scripts in `SQL/queries.sql`.
 
-# Query 1 – Executive KPI Summary
+## 1. Executive KPI Summary
+The business generated **$1.26M** in revenue with an overall profit of **$146.75K** (approx. 11.6% profit margin) across 25,035 orders. The average discount of 14.29% suggests pricing strategy is heavily relied upon to drive sales volume.
 
-## Business Question
+## 2. Regional Performance
+Central is the largest contributor to overall profit. North and North Asia combine strong profitability with healthy margins. Conversely, Southeast Asia records substantial revenue but an unusually low profit margin, indicating critical pricing or operational issues in that market.
 
-What is the overall health of the business?
+## 3. Sub-Category Profitability (The Furniture Gap)
+While the "Technology" category is highly profitable, a deep dive into sub-categories revealed a major risk: **Tables** and **Bookcases** are generating high sales volume but are operating at a significant net loss. 
 
-## SQL Query
+## 4. The 20% Discount Cliff
+Aggregating profit by discount levels revealed the most critical finding of this project: **Applying discounts greater than 20% severely degrades overall profitability.** The business actively loses money on transactions discounted beyond this threshold, offsetting gains from full-price sales.
 
-Stored in `SQL/queries.sql`
-
-## Results
-
-| KPI | Value |
-|------|-------:|
-| Total Revenue | 1,264,250.91 |
-| Total Profit | 146,745.29 |
-| Total Orders | 25,035 |
-| Total Customers | 1,590 |
-| Average Discount | 14.29% |
-
-## Interpretation
-
-- The business generated **$1.26M** in revenue.
-- Overall profit is **$146.75K**, giving an approximate **11.6% profit margin**.
-- The business serves **1,590 unique customers** across **25,035 orders**.
-- The average discount of **14.29%** suggests pricing strategy may significantly affect profitability.
-
-## Recommendation
-
-Further investigate the relationship between discounts, product categories, and regional profitability to identify opportunities for margin improvement.
-
----
-
-# Query 2 – Regional Performance
-
-## Business Question
-
-Which regions generate the highest overall profit?
-## Key Findings
-
-- Central is the largest contributor to overall profit.
-- North and North Asia combine strong profitability with healthy profit margins.
-- Canada has the highest profit margin but represents a relatively small market.
-- Southeast Asia records substantial revenue but an unusually low profit margin, indicating potential pricing or cost issues.
-
-## Interpretation
-
-Revenue alone is not an indicator of success. Regions should be evaluated based on both revenue generation and profitability to guide strategic investments.
-
-## Recommendation
-
-- Continue investing in high-performing regions.
-- Investigate pricing and operational efficiency in Southeast Asia.
-- Study North Asia's business model as a benchmark for other regions.
+## 5. Strategic Recommendations
+* **Implement a Hard Cap on Discounts:** Restrict standard promotional discounts to a maximum of 20% to protect margins.
+* **Restructure Furniture Pricing:** Investigate vendor costs and pricing strategies for Tables and Bookcases to stop margin bleeding.
+* **Audit Southeast Asia:** Conduct a localized review of Southeast Asia's pricing structure to align its profit margins with regions like North Asia.
